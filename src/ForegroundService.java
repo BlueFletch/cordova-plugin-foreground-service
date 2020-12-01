@@ -10,6 +10,7 @@ import android.os.IBinder;
 import android.os.Bundle;
 import android.annotation.TargetApi;
 
+import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
 public class ForegroundService extends Service {
