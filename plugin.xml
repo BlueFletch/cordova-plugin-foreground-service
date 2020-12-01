@@ -28,6 +28,5 @@
   <!-- Only android 22+ is accepted -->
   <engines>
     <engine name="cordova-android" version=">=7.0.0" />
-    <engine name="android-sdk" version=">=22" />
   </engines>
 </plugin>
