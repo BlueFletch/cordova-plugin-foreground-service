@@ -17,7 +17,8 @@ public class ForegroundService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if (intent.getAction().equals("start")) {
+        
+        if (intent != null && intent.getAction().equals("start")) {
             // Start the service
             startPluginForegroundService(intent.getExtras());
         } else {
