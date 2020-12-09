@@ -88,6 +88,7 @@ Value | Importance | Description
 
 Please feel free to open an issue or make a pull request!
 
+
 ---
 
 ## License
